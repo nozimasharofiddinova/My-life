@@ -1,0 +1,63 @@
+// Instagram kartasini yaratish
+const card2 = document.createElement('div');
+card2.style.border = '1px solid #000000';
+card2.style.borderRadius = '4px';
+card2.style.padding = '20px';
+card2.style.textAlign = 'center';
+
+const img2 = document.createElement('img');
+img2.setAttribute('src', "./instagram.svg");
+img2.setAttribute('height', '100px');
+
+card2.appendChild(img2);
+content.appendChild(card2);
+
+
+
+
+
+// YouTube kartasini yaratish
+const card3 = document.createElement('div');
+card3.style.border = '1px solid #000000';
+card3.style.borderRadius = '4px';
+card3.style.padding = '20px';
+card3.style.textAlign = 'center';
+
+const img3 = document.createElement('img');
+img3.setAttribute('src', "./you tube.svg");
+img3.setAttribute('height', '100px');
+
+card3.appendChild(img3);
+content.appendChild(card3);
+
+
+
+
+
+
+
+
+
+
+const content = document.querySelector(".content");
+
+// Konteyner stillari (bir marta beriladi)
+content.style.display = "flex";
+content.style.alignItems = "center";
+content.style.justifyContent = "center";
+content.style.gap = "30px";
+
+// Twitter kartasini yaratish
+const card1 = document.createElement('div');
+card1.style.border = '1px solid #000000';
+card1.style.borderRadius = '4px';
+card1.style.padding = '20px';
+card1.style.textAlign = 'center';
+
+const img1 = document.createElement('img');
+img1.setAttribute('src', "./tvitter.svg");
+img1.setAttribute('height', '100px');
+
+card1.appendChild(img1);
+content.appendChild(card1);
+
